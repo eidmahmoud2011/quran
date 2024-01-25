@@ -32,6 +32,6 @@ jobs:
       run: |
         pytest
     - name: Run PyWebIO Application
-      run: python your_pywebio_script.py
+      run: python main.py
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
